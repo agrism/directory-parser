@@ -1,0 +1,18 @@
+{
+  "name": "agrism/directory-parser",
+  "authors": [
+	{
+	  "name": "Agris",
+	  "email": "7924@inbox.lv"
+	}
+  ],
+  "autoload": {
+	"files": [
+	  "src\/Helpers\/functions.php"
+	]
+  },
+  "require": {},
+  "require-dev": {
+    "symfony/var-dumper": "^5.1"
+  }
+}
