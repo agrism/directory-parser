@@ -1,13 +1,5 @@
 <?php
 
-// function dump($var){
-// 	echo '<pre style="background-color: yellow">'.print_r($var, 1).'</pre>';
-// }
-//
-// function dd($var){
-// 	dump($var);die;
-// }
-
 function getDirContents($dir, &$results = array())
 {
 	$files = scandir($dir);

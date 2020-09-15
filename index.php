@@ -13,7 +13,7 @@ foreach ($env['cycles'] as $item) {
 	$found = 0;
 	foreach (getDirContents($dir) as $index => $path) {
 
-		if ($index === 9) {
+		if ($index === 0) {
 			dump($item['pattern']);
 		}
 
@@ -22,7 +22,7 @@ foreach ($env['cycles'] as $item) {
 		}
 
 		if (in_array(substr($path, -3), ['.js', 'pdf', 'png', 'jpg', 'ttf', 'css', '.md',
-			'tml', 'psd', 'mp4', 'peg', 'ico', 'txt', 'sdl'])) {
+			'tml', 'psd', 'mp4', 'peg', 'ico', 'txt', 'sdl', 'son'])) {
 			continue;
 		}
 
