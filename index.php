@@ -22,7 +22,7 @@ foreach ($env['cycles'] as $item) {
 		}
 
 		if (in_array(substr($path, -3), ['.js', 'pdf', 'png', 'jpg', 'ttf', 'css', '.md',
-			'tml', 'psd', 'mp4', 'peg', 'ico', 'txt', 'sdl', 'son'])) {
+			'tml', 'psd', 'mp4', 'peg', 'ico', 'txt', 'sdl', 'son', 'ass', 'xml'])) {
 			continue;
 		}
 
